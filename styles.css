@@ -1,0 +1,120 @@
+    header{
+        font-family: 'Ubuntu','Roboto Condensed', sans-serif;
+        text-align: center;
+    }
+
+    footer{
+      font-family: 'Ubuntu','Roboto Condensed', sans-serif;
+    }
+
+
+    .date-container{
+        position: fixed;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+
+    .date{
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding: 20px;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+
+    .search-container {
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+      }
+      
+      .search-container input[type="text"] {
+        border: none;
+        border-radius: 20px;
+        padding: 10px 20px;
+        outline: none;
+        font-size: 16px;
+        background-color: #d4d9e4;
+        transition: width 0.4s ease-in-out;
+        width: 0px;
+      }
+      
+      .search-container input[type="text"]:focus {
+        width: 300px;
+        font-family: 'Ubuntu','Roboto Condensed', sans-serif;
+      }
+      
+      .search-container button {
+        border: none;
+        background-color: #b6ffc2;
+        padding: 10px;
+        border-radius: 50%;
+        margin-left: -50px;
+        outline: none;
+        cursor: pointer;
+        transition: background-color 0.4s ease-in-out;
+      }
+      
+      .search-container button:hover {
+        background-color: #ddd;
+      }
+      
+      .search-container button i {
+        color: #fc0000;
+        font-size: 20px;
+      }
+
+      .card{
+        width: 266px; /* Change the width */
+        height: 300px; /* Change the height */
+      }
+
+      .card1{
+        width: 266px; /* Change the width */
+      height: 300px; /* Change the height */
+      border: 1px solid #EEEDE7;
+      padding: 10px;
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+      font-family: 'Roboto Condensed', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh; 
+      line-height: normal;
+      }
+
+      .card2{
+        width: 566px; /* Change the width */
+        height: 200px; /* Change the height */
+        border: 1px solid #ccc;
+        padding: 10px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+        font-family: 'Roboto Condensed', sans-serif;
+      }
+
+      .card3{
+        width: 566px; /* Change the width */
+        height: 200px; /* Change the height */
+        border: 1px solid #ccc;
+        padding: 10px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+        font-family: 'Roboto Condensed', sans-serif;
+      }
+      
+
+    .gradient-custom {
+        /* fallback for old browsers */
+        background: #dd1e1e;
+        
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: -webkit-linear-gradient(to right, rgb(234, 75, 75), #EEEDE7(255, 236, 210, 1));
+        
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: linear-gradient(to right, #868B8E(255, 255, 255, 1), rgba(255, 236, 210, 1))
+        }
+        
+        .carousel-indicators li {
+        background-color: #282828;
+        width: 7px;
+        height: 7px;
+        border-radius: 50%;
+        }
